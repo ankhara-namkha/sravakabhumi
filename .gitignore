@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+*.swp
+*.swo
+*~
+
+# CC internal (context awareness flags)
+.claude/cc-context-awareness/*.flag
+/tmp/
+
+# Build outputs
+output/
+build/__pycache__/
+*.epub
+*.pdf
+*.mobi
+*.azw3
+
+# Allow the distributed EPUB in docs/ to be tracked
+!docs/sravakabhumi.epub
